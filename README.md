@@ -1,5 +1,5 @@
 ## Load Balancer Endpoint
-http://a7fc107d6227e435bbdcb554906f0fb6-1219523202.us-east-1.elb.amazonaws.com/
+http://a4098fba2b51643ecac135037a05eb08-461386552.us-east-1.elb.amazonaws.com:5000
 
 ## Authors
 
