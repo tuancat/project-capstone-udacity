@@ -5,7 +5,7 @@ metadata:
   namespace: kube-system
 data:
   mapRoles: |
-    - rolearn: arn:aws:iam::005426805090:role/Capstone-elk-ClusterRole-1KS0KX7MZI2U3
+    - rolearn: arn:aws:iam::005426805090:role/Capstone-elk-node-InstanceRole-1NB3PE5JX4UZQ
       username: system:node:{{EC2PrivateDNSName}}
       groups:
         - system:bootstrappers
