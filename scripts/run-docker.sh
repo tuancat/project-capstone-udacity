@@ -12,4 +12,4 @@ docker images
 
 # Step 3:
 # Run app
-docker run -p 80:80 ml-classification
+docker run -p 5000:5000 ml-classification

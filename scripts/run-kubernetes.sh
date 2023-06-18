@@ -8,7 +8,7 @@ dockerpath="tuancnh/ml-classification"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run ml-classification --image=$dockerpath --port=80
+kubectl run ml-classification --image=$dockerpath --port=5000
 
 
 # Step 3:
@@ -18,7 +18,7 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose deployment ml-classification --type=LoadBalancer --port=80
+kubectl expose deployment ml-classification --type=LoadBalancer --port=5000
 
 # Open the service
 # minikube service ml-classification
