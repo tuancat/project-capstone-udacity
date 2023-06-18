@@ -89,8 +89,8 @@ jobs:
       - run:
           name: Push Docker Image
           command: |
-            docker tag ml-classification phamanhtuan221995/ml-classification
-            docker push phamanhtuan221995/ml-classification
+            docker tag ml-classification tuancnh/ml-classification
+            docker push tuancnh/ml-classification
   deploy:
     docker:
       - image: cimg/python:3.11.4
