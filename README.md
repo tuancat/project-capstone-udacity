@@ -9,8 +9,7 @@ http://a7fc107d6227e435bbdcb554906f0fb6-1219523202.us-east-1.elb.amazonaws.com/
 
 
 ### CircleCI Status
-[![<CircleCI>](https://circleci.com/gh/tuanpa2295/udacity-cloud-devops-capstone.svg?style=svg)](https://github.com/tuanpa2295/udacity-cloud-devops-capstone)
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/tuancat/project-capstone-udacity/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/tuancat/project-capstone-udacity/tree/main)
 ### License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
@@ -80,7 +79,7 @@ To run this project, you will need to add the following environment variables to
 * Some kubectl commands to check k8s resources
 ```bash
     # Fet k8s configs
-    aws eks --region us-east-1 update-kubeconfig --name CapstoneEKS-ZIuUrjFd62pq
+    aws eks --region us-east-1 update-kubeconfig --name CapstoneEKS-Z3X8vyI1ufDY
     # Switch context
     kubectl config use-context arn:aws:eks:us-east-1:988918897812:cluster/CapstoneEKS-ZIuUrjFd62pq
     # Manually apply k8s resource
@@ -93,8 +92,6 @@ To run this project, you will need to add the following environment variables to
     kubectl get services
     # View logs of a pod (when checking incoming request)
     kubectl logs <POD_NAME>
-    # Port forward to forward a port in pod to host port (format: <HOST_PORT><POD_PORT>)
-    kubectl port-forward <HOST_PORT><POD_PORT>
 ```
 ## Run Steps For Manual Deployment
 * Run `./scripts/create-cluster.sh`

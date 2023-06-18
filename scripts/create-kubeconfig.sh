@@ -1,4 +1,4 @@
 aws eks \
 --region us-east-1 \
 update-kubeconfig \
---name $1 \
+--name CapstoneEKS-Z3X8vyI1ufDY \
