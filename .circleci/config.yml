@@ -144,12 +144,12 @@ workflows:
     jobs:
       - lint
       - build:
-          cluster-name: CapstoneEKS-0J5F5Y6TBD53
+          cluster-name: CapstoneEKS-Z3X8vyI1ufDY
           aws-region: $AWS_DEFAULT_REGION
           requires:
             - "lint"
       - deploy:
-          cluster-name: CapstoneEKS-0J5F5Y6TBD53
+          cluster-name: CapstoneEKS-Z3X8vyI1ufDY
           aws-region: $AWS_DEFAULT_REGION
           requires:
             - "build"
